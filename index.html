@@ -1,23 +1,29 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Home</title>
+        <title>Angela Patini</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="icon" href="favicon.ico">
+        <link href="https://fonts.googleapis.com/css?family=Italianno|Lora&display=swap" rel="stylesheet">
     </head>
 
     <body>
       <header>
         <nav>
             <ul>
-              <li><a href="">Home</a></li>
-              <li><a href="">Projects</a></li>
-              <li><a href="">School</a></li>
-              <li><a href="">Music/Hobbies</a></li>
+              <li><a href="#Home">Home</a></li>
+              <li><a href="#Skills">Skills</a></li>
+              <li><a href="#Projects">Projects</a></li>
+              <li><a href="#Music">Music</a></li>
             </ul>
         </nav>
       </header>
-      <div>
-        <h1>Hello, my name is Angela Patini!</h1>
-        <img src="circleHeadShot.png" alt="Where did the picture of my face go?">
+
+
+
+      <div id="Home" class="pad">
+        <h1 class="intro">I'm Angela!</h1>
+        <img class="headshot" src="images/circleHeadShot.png" alt="Where did the picture of my face go?">
         <p>I am currently a graduate student in the
           Master of Computer and Information Technology (MCIT) Program at the University of Pennsylvania.
           I started the program in the Spring of 2019 and am expecting to graduate in the Fall of 2020.
@@ -27,74 +33,83 @@
           my love of music and computer science into a career as a software engineer for a music
           based company.
         </p>
+        <img class="heart1" src="images/heart.png" alt="">
+        <img class="heart2" src="images/heart.png" alt="">
+        <img src="images/E.jpg" alt="" class="ePic">
+        <img src="images/A&S.jpg" alt="" class="asPic">
       </div>
 
-      <div>
-        <h2>School</h1>
+      <div class="skillsContainer">
 
-        <h3>Languages</h3>
-        <ul>
-          <li>Java</li>
-          <li>C</li>
-          <li>HTML5</li>
-          <li>CSS</li>
-          <li>JavaScript (2016/ES6)</li>
-        </ul>
+        <div id="Skills" class="pad">
+          <h2 class="skillsPad">Skills</h1>
 
-        <h3>Frameworks</h3>
-        <ul class="info">
-          <li>React</li>
-        </ul>
+          <div class="langContainer" >
+            <div class="lfoLeftContainer">
+              <h3 class="langs">Languages</h3>
+            </div>
+            <ul>
+              <li>Java</li>
+              <li>C</li>
+              <li>HTML5</li>
+              <li>CSS</li>
+              <li>JavaScript (ES6+)</li>
+            </ul>
+          </div>
 
-        <h3>Other</h3>
-        <ul class="info">
-          <li>Eclipse</li>
-          <li>JUnit Testing</li>
-        </ul>
+          <div class="framesContainer">
+            <div class="lfoRightContainer" class="rightSkill">
+              <h3 class="frames">Frameworks</h3>
+            </div>
 
-        <h3>Relevant Coursework</h3>
-          <ul>
-          <h4>MCIT</h4>
-            <li>Introduction to Software Development</li>
-            <li>Mathematical Foundations of Computer Science</li>
-            <li>Introduction to Computer Systems</li>
-            <li>Data Structure and Software Design</li>
-          <br>
-            In Progress:
-            <li>Computer Systems Programming</li>
-            <li>Algorithms and Computation</li>
-          </ul>
-          <br>
-          <ul>
-          <h4>Math Undergrad</h4>
-            <li>Probability</li>
-            <li>Advanced Analysis I & II</li>
-            <li>Linear Algebra</li>
-            <li>Abstract Algebra</li>
-            <li>Discrete Mathematics</li>
-            <li>Partial Differential Equations</li>
-          </ul>
+            <ul class="info" class="leftSkill">
+              <li>React</li>
+              <li>Bootstrap</li>
+            </ul>
+          </div>
+
+
+          <div class="otherContainer">
+            <div class="lfoLeftContainer">
+              <h3 class="other">Other</h3>
+            </div>
+
+            <ul class="info">
+              <li>Eclipse</li>
+              <li>JUnit Testing</li>
+            </ul>
+          </div>
+
+
+        </div>
+
+        <img src="images/passioncode.png" alt="" class="code">
+        <img src="images/passioncodeanswer.png" alt="" class="answer">
       </div>
 
-      <div>
-        <h1>Projects</h1>
 
-        <h4>PennApps</h4>
-        <p>Description</p>
+      <div id="Projects" class="pad">
+        <h2>Projects</h2>
+
+        <div class="proj">
+          <h4 class="projTitle">PennApps</h4>
+          <p class="projdes">Description</p>
+        </div>
+
+        <div class="proj">
+          <h4 class="projTitle">Artist Website</h4>
+          <p class="projdes">Description</p>
+        </div>
+
+        <div class=proj>
+          <h4 class="projTitle">JustListen</h4>
+          <p class="projdes">Description</p>
+        </div>
 
       </div>
-        <h4>Music Website</h4>
-        <p>Description</p>
-      <div>
-        <h4>JustListen</h4>
-        <p>Description</p>
-      </div>
-      <div>
 
-      </div>
-
-      <div >
-        <h2>Music/Hobbies (But Mostly Music)</h2>
+      <div id="Music" class="pad">
+        <h2>Music</h2>
 
         <p> I have loved music for as long as I can remember. I have been singing, songwriting, and playing guitar
           and piano for years, and have recently begun recording my music. I have released an EP and a single and
@@ -103,17 +118,31 @@
           with a slight broadway obsession, I am able to bring needed aspects of creativity into a field that is just
           as much creative as it is technical.
         </p>
+        <img class="guitar" src="images/guitar.png" alt="">
+        <img class="headphones" src="images/headphones.png" alt="">
       </div>
 
 
     </body>
 
     <footer>
-      <ul>
-        <li><a href="mailto:apatini@seas.upenn.edu">Email</a></li>
-        <li><a href="https://www.linkedin.com/in/angela-patini-aa912812a">Linkedin</a></li>
-        <li><a href="https://www.instagram.com/angelapatinimusic/">Instagram</a></li>
-      </ul>
+      Designed and built by Angela Patini
+
+      <div>
+        <a href="mailto:apatini@seas.upenn.edu">
+          <img id="mail" class="social" src="images/message.png" alt="">
+        </a>
+        <a href="https://www.linkedin.com/in/angela-patini-aa912812a">
+          <img id="linkedin" class="social" src="images/linkedin.png" alt="">
+        </a>
+        <a href="https://www.instagram.com/angelapatinimusic/">
+          <img id="insta" class="social" src="images/insta.png" alt="">
+        </a>
+        <a href="https://github.com/arpatini">
+          <img id="github" class="social" src="images/gitHub.png" alt="">
+        </a>
+
+      </div>
     </footer>
 
 </html>

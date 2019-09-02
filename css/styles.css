@@ -1,0 +1,289 @@
+body {
+  margin: 0;
+  color: #420000;
+  font-family: 'Lora', serif;
+  text-align: center;
+  position:relative;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #420000;
+  height:70px;
+  position:fixed;
+  top:0;
+  z-index: 1;
+  width:100%;
+  opacity:.8;
+}
+
+header nav ul {
+  margin:0;
+  list-style-type:none;
+  text-align: center;
+  position:relative;
+  top: 25px;
+}
+
+header nav ul li {
+  display:inline;
+  padding: 0 10px 0;
+}
+
+header nav ul li:hover {
+  font-size: 25px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #f6f6f6;
+}
+
+.intro {
+  font-family: 'Italianno', cursive;
+  font-size:6rem;
+  margin:50px;
+}
+
+.pad {
+  padding:130px;
+  padding-bottom: 200px;
+}
+
+p {
+  width: 700px;
+  margin: auto;
+  line-height: 1.5;
+}
+
+.headshot {
+  height: 250px;
+  position:relative;
+  bottom:90px;
+}
+
+#Home {
+  background-color: #f6f6f6;
+  padding-top:20px;
+  position:relative;
+}
+
+#Home p {
+  position:relative;
+  bottom:70px;
+}
+
+h2 {
+  font-size: 2em;
+  position:relative;
+  bottom:10px;
+}
+
+.heart1 {
+  position: absolute;
+  height:120px;
+  bottom: 300px;
+  left: 100px;
+}
+
+.heart2 {
+  position: absolute;
+  height:120px;
+  top: 200px;
+  right: 100px;
+}
+
+.ePic {
+  position:absolute;
+  bottom:110px;
+  right:400px;
+  height:100px;
+}
+
+.asPic {
+  height:80px;
+  position:absolute;
+  bottom:120px;
+  right:30px;
+}
+
+
+
+.skillsContainer {
+  background-color: #eae9e9;
+  position:relative;
+
+}
+#Skills {
+  width: 300px;
+  margin:auto;
+}
+
+.skillsPad {
+  padding-bottom:40px;
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;
+  position:relative;
+  top:15px;
+}
+
+li {
+  text-decoration: none;
+}
+
+.lfoLeftContainer {
+  float:left;
+  height:120px;
+  width:120px;
+  border-radius: 50%;
+  background-color: #d4d7dd;
+  margin-right:30px;
+  clear:both;
+}
+
+.lfoRightContainer {
+  float:right;
+  height:120px;
+  width:120px;
+  border-radius: 50%;
+  background-color: #d4d7dd;
+  margin-right:30px;
+  clear:both;
+}
+
+.rightSkill {
+  float:right;
+}
+
+.langs {
+  position:relative;
+  top:25px;
+}
+
+.frames {
+  position:relative;
+  top:25px;
+}
+
+.other {
+  position:relative;
+  top:25px;
+}
+.langContainer {
+  margin-top:30px;
+  height:120px;
+}
+
+.framesContainer {
+  margin-top:30px;
+  height:120px;
+}
+
+.otherContainer {
+  margin-top:30px;
+  height:120px;
+}
+
+.code {
+  height:120px;
+  position:absolute;
+  top:250px;
+  right:50px;
+}
+
+.answer {
+  height:35px;
+  position:absolute;
+  top:380px;
+  right:50px;
+}
+
+#Projects {
+  background-color: #d4d7dd;
+}
+
+.proj {
+  background-image: linear-gradient(to bottom right, #d4d7dd ,  white);
+  color:#420000;
+  height:350px;
+  width:50%;
+  box-shadow: 0 0 20px 3px black;
+  margin:80px auto 80px auto;
+  position:relative;
+
+}
+
+.projTitle {
+  font-size: 2em;
+  position: absolute;
+  left:10px;
+  top:10px;
+  margin:0
+}
+
+.projdes {
+  width:100%;
+  position:absolute;
+  top:120px;
+  text-align:left;
+  padding-left:80px;
+}
+
+.proj:hover {
+  background-color: pink;
+  color: transparent;
+}
+
+#Music {
+  background-color: #eae9e9;
+  position:relative;
+  padding-bottom: 300px;
+  line-height: 1.5;
+}
+img {
+  padding: 20px;
+  padding-top:50px;
+}
+.headphones {
+  width: 170px;
+}
+
+.guitar {
+  width: 325px;
+}
+
+
+footer {
+  position:absolute;
+  bottom:0;
+  background-color: #420000;
+  color:#f6f6f6;
+  width: 100%;
+  height:20px;
+  padding:25px;
+  opacity:.8;
+}
+
+.social {
+  width:25px;
+  position: fixed;
+  left: 20px;
+}
+#mail {
+  bottom:180px;
+}
+ #insta {
+   bottom:140px;
+ }
+
+ #linkedin {
+   bottom:100px;
+ }
+
+ #github {
+   bottom: 60px;
+ }
