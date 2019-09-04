@@ -53,7 +53,7 @@ header nav ul li a {
 }
 
 p {
-  width: 700px;
+  width: 75%;
   margin: auto;
   line-height: 1.5;
 }
@@ -84,29 +84,25 @@ h2 {
 .heart1 {
   position: absolute;
   height:120px;
-  bottom: 300px;
-  left: 100px;
+  top: 100px;
+  left: 10%;
 }
 
 .heart2 {
   position: absolute;
   height:120px;
   top: 200px;
-  right: 100px;
+  left: 70%;
 }
 
 .ePic {
-  position:absolute;
-  bottom:110px;
-  right:400px;
   height:100px;
 }
 
 .asPic {
+  position:relative;
+  bottom:10px;
   height:80px;
-  position:absolute;
-  bottom:120px;
-  right:30px;
 }
 
 
@@ -191,16 +187,14 @@ li {
 
 .code {
   height:120px;
-  position:absolute;
-  top:250px;
-  right:50px;
+  position:relative;
+  bottom:190px;
 }
 
 .answer {
+  position:relative;
+  bottom:200px;
   height:35px;
-  position:absolute;
-  top:380px;
-  right:50px;
 }
 
 #Projects {
@@ -212,6 +206,7 @@ li {
   color:#420000;
   height:350px;
   width:50%;
+  min-width: 400px;
   box-shadow: 0 0 20px 3px black;
   margin:80px auto 80px auto;
   position:relative;
@@ -237,6 +232,10 @@ li {
 .proj:hover {
   background-color: pink;
   color: transparent;
+}
+
+.hideProj {
+  display: none;
 }
 
 #Music {
